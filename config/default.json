@@ -1,0 +1,29 @@
+{
+    "version": "000000",
+    "port": 8080,
+    "logging": {
+        "logLevel": "debug",
+        "includeSrc": false 
+    },
+    "domain": "",
+    "protocol": "https",
+    "devLandingEnabled": false,
+    "db": {
+        "connection": "postgresql://postgres:root@localhost/sample",
+        "minPool": 1,
+        "maxPool": 10
+    },
+    "slack": {
+        "clientId": "SLACK_CLIENT_ID",
+        "clientSecret": "SLACK_CLIENT_SECRET",
+        "signingSecret": "SLACK_SIGNING_SECRET",
+        "verificationToken": "SLACK_VERIFICATION_TOKEN",
+        "oauthAccessToken": "SLACK_OAUTH_ACCESS_TOKEN",
+        "botUserOauthAccessToken": "SLACK_BOT_USER_OAUTH_ACCESS_TOKEN",
+        "appInstallUrl": "SLACK_APP_INSTALL_URL",
+        "scopes": [
+            "commands",
+            "users:read"
+        ]
+    }
+}

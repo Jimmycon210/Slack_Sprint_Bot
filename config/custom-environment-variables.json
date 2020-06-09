@@ -1,0 +1,19 @@
+{
+    "version": "VERSION",
+    "port": "PORT",
+    "domain": "DOMAIN",
+    "protocol": "PROTOCOL",
+    "devLandingEnabled": "DEV_LANDING_ENABLED",
+    "db": {
+        "connection": "DB_URL"
+    },
+    "slack": {
+        "clientId": "SLACK_CLIENT_ID",
+        "clientSecret": "SLACK_CLIENT_SECRET",
+        "signingSecret": "SLACK_SIGNING_SECRET",
+        "verificationToken": "SLACK_VERIFICATION_TOKEN",
+        "oauthAccessToken": "SLACK_OAUTH_ACCESS_TOKEN",
+        "botUserOauthAccessToken": "SLACK_BOT_USER_OAUTH_ACCESS_TOKEN",
+        "appInstallUrl": "SLACK_APP_INSTALL_URL"
+    }
+}
